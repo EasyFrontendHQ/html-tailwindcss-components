@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @layer components {
+  .btn-primary {
+    @apply bg-blue-600 hover:bg-opacity-90 text-white font-bold border border-blue-600 py-3 px-7 rounded transition;
+  }
+  .btn-outline {
+    @apply bg-transparent hover:bg-blue-600 border border-blue-600 hover:text-white py-2 px-5 rounded transition;
+  }
+  .section-padding {
+    @apply py-[60px] md:py-[100px];
+  }
+  .form-control {
+    @apply min-h-[42px] leading-[26px] bg-white text-black focus:outline-none;
+  }
+} */

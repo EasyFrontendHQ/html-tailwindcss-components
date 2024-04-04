@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign In Forms(HTML-Tailwind)</title>
+
+    <!-- Color Scheme-->
+    <script src="../../assets/demo/script.js"></script>
+    <script>
+      appendHeadInfo("tailwind");
+    </script>
+  </head>
+  <body>
+    <!--
+Name: Sign In 1
+-->
+    <section
+      class="ezy__signin1 py-14 md:py-24 bg-white dark:bg-[#0b1727] text-indigo-900 dark:text-white overflow-hidden"
+    >
+      <div class="container mx-auto px-4 flex items-center justify-center">
+        <div class="w-full max-w-lg bg-white dark:bg-slate-800 rounded-2xl shadow-xl">
+          <div class="p-8 lg:p-10">
+            <h2 class="text-3xl leading-none font-bold mb-12">Log In</h2>
+            <form>
+              <div class="mb-4">
+                <label class="block mb-2 font-normal" for="email">Email Address</label>
+                <input
+                  type="text"
+                  class="w-full bg-blue-50 dark:bg-slate-700 min-h-[48px] leading-10 px-4 p-2 rounded-lg outline-none border border-transparent focus:border-blue-600"
+                  id="email"
+                  placeholder="Enter Email Address"
+                />
+              </div>
+              <div class="mb-4">
+                <label class="block mb-2 font-normal" for="password">Password</label>
+                <input
+                  type="password"
+                  class="w-full bg-blue-50 dark:bg-slate-700 min-h-[48px] leading-10 px-4 p-2 rounded-lg outline-none border border-transparent focus:border-blue-600"
+                  id="password"
+                  placeholder="Enter Password"
+                />
+              </div>
+              <div class="mb-4">
+                <input type="checkbox" class="mr-2" id="remember-me" checked />
+                <label class="font-normal" for="remember-me">Remember me</label>
+              </div>
+              <button class="bg-indigo-900 text-white py-3 px-6 rounded w-full">Log In</button>
+              <button class="hover:text-blue-600 font-medium py-2 px-4 rounded-lg w-full mt-4">
+                Forget your password?
+              </button>
+              <div class="relative">
+                <hr class="my-8 border-t border-gray-300" />
+                <span
+                  class="px-2 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white dark:bg-slate-800"
+                  >Or</span
+                >
+              </div>
+              <button class="bg-blue-600 text-white py-3 px-6 rounded w-full flex items-center justify-center mt-4">
+                <span class="fab fa-facebook mr-2 text-white"></span>
+                <span class="text-center">Continue with Facebook</span>
+              </button>
+              <button class="bg-red-500 text-white py-3 px-6 rounded w-full flex items-center justify-center mt-4">
+                <span class="fab fa-google mr-2 text-white"></span>
+                <span class="text-center">Continue with Google</span>
+              </button>
+              <div class="text-center mt-8">
+                <p class="opacity-50">Don't have an account?</p>
+                <a href="#" class="hover:text-blue-600 font-medium text-decoration-none">Create account</a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <br />
+
+    <!--
+Name: Sign In 2
+-->
+    <section class="ezy__signin2 flex bg-white dark:bg-[#0b1727] text-zinc-900 dark:text-white">
+      <div class="container px-4 mx-auto min-h-screen">
+        <div class="grid grid-cols-12 h-full">
+          <div class="col-span-12 lg:col-span-5">
+            <div
+              class="hidden lg:block h-full w-full lg:w-[50vw] bg-cover bg-center bg-no-repeat float-right"
+              style="background-image: url(https://cdn.easyfrontend.com/pictures/sign-in-up/sign4.jpg)"
+            ></div>
+          </div>
+          <div class="col-span-12 lg:col-span-5 lg:col-start-8 xl:col-span-4 xl:col-start-9 py-12">
+            <div class="flex items-center justify-center h-full">
+              <div class="w-full">
+                <h2 class="text-3xl leading-none font-bold mb-6 md:mb-12">Log In</h2>
+
+                <form class="w-full">
+                  <div class="mb-4">
+                    <label class="block mb-2 font-normal" for="email">Email Address</label>
+                    <input
+                      type="text"
+                      class="w-full bg-blue-50 dark:bg-slate-700 min-h-[48px] leading-10 px-4 p-2 rounded-lg outline-none border border-transparent focus:border-blue-600"
+                      id="email"
+                      placeholder="Enter Email Address"
+                    />
+                  </div>
+                  <div class="mb-4">
+                    <label class="block mb-2 font-normal" for="password">Password</label>
+                    <input
+                      type="password"
+                      class="w-full bg-blue-50 dark:bg-slate-700 min-h-[48px] leading-10 px-4 p-2 rounded-lg outline-none border border-transparent focus:border-blue-600"
+                      id="password"
+                      placeholder="Enter Password"
+                    />
+                  </div>
+                  <div class="mb-4">
+                    <input type="checkbox" class="mr-2" id="remember-me" checked />
+                    <label class="font-normal" for="remember-me">Remember me</label>
+                  </div>
+                  <button class="bg-indigo-900 text-white py-3 px-6 rounded w-full">Log In</button>
+                  <button class="hover:text-blue-600 font-medium py-2 px-4 rounded-lg w-full mt-4">
+                    Forget your password?
+                  </button>
+                  <hr class="my-8 border-t border-gray-300" />
+                  <button class="bg-blue-600 text-white py-3 px-6 rounded w-full flex items-center justify-center mt-4">
+                    <span class="fab fa-facebook mr-2 text-white"></span>
+                    <span class="text-center">Continue with Facebook</span>
+                  </button>
+                  <button class="bg-red-500 text-white py-3 px-6 rounded w-full flex items-center justify-center mt-4">
+                    <span class="fab fa-google mr-2 text-white"></span>
+                    <span class="text-center">Continue with Google</span>
+                  </button>
+                  <div class="text-center mt-8">
+                    <p class="opacity-50">Don't have an account?</p>
+                    <a href="#" class="hover:text-blue-600 font-medium text-decoration-none">Create account</a>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <br />
+
+    <!--
+Name: Sign In 3
+-->
+    <section
+      class="ezy__signin3 py-14 bg-white dark:bg-[#0b1727] text-indigo-900 dark:text-white bg-cover bg-center bg-no-repeat"
+      style="background-image: url(https://cdn.easyfrontend.com/pictures/sign-in-up/sign-in-up-1.png)"
+    >
+      <div class="container mx-auto px-4">
+        <div class="w-full max-w-lg bg-white dark:bg-slate-800 rounded-2xl shadow-xl">
+          <div class="p-8 lg:p-10">
+            <h2 class="text-3xl leading-none font-bold mb-12">Log In</h2>
+            <form>
+              <div class="mb-4">
+                <label class="block mb-2 font-normal" for="email">Email Address</label>
+                <input
+                  type="text"
+                  class="w-full bg-blue-50 dark:bg-slate-700 min-h-[48px] leading-10 px-4 p-2 rounded-lg outline-none border border-transparent focus:border-blue-600"
+                  id="email"
+                  placeholder="Enter Email Address"
+                />
+              </div>
+              <div class="mb-4">
+                <label class="block mb-2 font-normal" for="password">Password</label>
+                <input
+                  type="password"
+                  class="w-full bg-blue-50 dark:bg-slate-700 min-h-[48px] leading-10 px-4 p-2 rounded-lg outline-none border border-transparent focus:border-blue-600"
+                  id="password"
+                  placeholder="Enter Password"
+                />
+              </div>
+              <div class="mb-4">
+                <input type="checkbox" class="mr-2" id="remember-me" checked />
+                <label class="font-normal" for="remember-me">Remember me</label>
+              </div>
+              <button class="bg-indigo-900 text-white py-3 px-6 rounded w-full">Log In</button>
+              <button class="hover:text-blue-600 font-medium py-2 px-4 rounded-lg w-full mt-4">
+                Forget your password?
+              </button>
+              <div class="relative">
+                <hr class="my-8 border-t border-gray-300" />
+                <span
+                  class="px-2 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white dark:bg-slate-800"
+                  >Or</span
+                >
+              </div>
+              <button class="bg-blue-600 text-white py-3 px-6 rounded w-full flex items-center justify-center mt-4">
+                <span class="fab fa-facebook mr-2 text-white"></span>
+                <span class="text-center">Continue with Facebook</span>
+              </button>
+              <button class="bg-red-500 text-white py-3 px-6 rounded w-full flex items-center justify-center mt-4">
+                <span class="fab fa-google mr-2 text-white"></span>
+                <span class="text-center">Continue with Google</span>
+              </button>
+              <div class="text-center mt-8">
+                <p class="opacity-50">Don't have an account?</p>
+                <a href="#" class="hover:text-blue-600 font-medium text-decoration-none">Create account</a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <br />
+
+    <!--
+Name: Sign In 4
+-->
+    <section class="ezy__signin4 flex bg-white dark:bg-[#0b1727] text-zinc-900 dark:text-white overflow-hidden">
+      <div class="container px-4 mx-auto min-h-screen">
+        <div class="grid grid-cols-12 h-full">
+          <div class="col-span-12 lg:col-span-6 lg:col-start-7 order-2">
+            <div
+              class="hidden lg:block h-full w-full lg:w-[50vw] bg-cover bg-center bg-no-repeat float-left"
+              style="background-image: url(https://cdn.easyfrontend.com/pictures/sign-in-up/sign3.jpg)"
+            ></div>
+          </div>
+          <div class="col-span-12 lg:col-span-5 py-12">
+            <div class="flex items-center justify-center h-full">
+              <div class="w-full">
+                <div class="bg-blue-100 bg-opacity-70 dark:bg-slate-800 shadow-xl rounded-2xl p-4 md:p-12">
+                  <h2 class="text-indigo-900 dark:text-white text-3xl font-bold mb-3">Welcome to Easy Frontend</h2>
+                  <div class="flex items-center mb-6 md:mb-12">
+                    <p class="mb-0 mr-2 opacity-50">Don't have an account?</p>
+                    <a href="#" class="">Create Account</a>
+                  </div>
+
+                  <form>
+                    <div class="mb-4">
+                      <label class="block mb-2 font-normal" for="email">Email Address</label>
+                      <input
+                        type="text"
+                        class="w-full bg-blue-50 dark:bg-slate-700 min-h-[48px] leading-10 px-4 p-2 rounded-lg outline-none border border-transparent focus:border-blue-600"
+                        id="email"
+                        placeholder="Enter Email Address"
+                      />
+                    </div>
+                    <div class="mb-4">
+                      <label class="block mb-2 font-normal" for="password">Password</label>
+                      <input
+                        type="password"
+                        class="w-full bg-blue-50 dark:bg-slate-700 min-h-[48px] leading-10 px-4 p-2 rounded-lg outline-none border border-transparent focus:border-blue-600"
+                        id="password"
+                        placeholder="Enter Password"
+                      />
+                    </div>
+                    <div class="mb-4">
+                      <input type="checkbox" class="mr-2" id="remember-me" checked />
+                      <label class="font-normal" for="remember-me">Remember me</label>
+                    </div>
+                    <button class="bg-indigo-900 text-white py-3 px-6 rounded w-full font-bold">
+                      Log In <i class="fas fa-arrow-right ml-2"></i>
+                    </button>
+                    <button class="hover:text-blue-600 font-medium py-2 px-4 rounded-lg w-full">
+                      Forget your password?
+                    </button>
+                    <div class="relative">
+                      <hr class="my-8 border-t border-gray-300" />
+                      <span
+                        class="px-2 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-blue-100 dark:bg-slate-800"
+                        >Or</span
+                      >
+                    </div>
+                    <button
+                      class="bg-blue-600 text-white py-3 px-6 rounded w-full flex items-center justify-center mt-4"
+                    >
+                      <span class="fab fa-facebook mr-2 text-white"></span>
+                      <span class="text-center">Continue with Facebook</span>
+                    </button>
+                    <button
+                      class="bg-red-500 text-white py-3 px-6 rounded w-full flex items-center justify-center mt-4"
+                    >
+                      <span class="fab fa-google mr-2 text-white"></span>
+                      <span class="text-center">Continue with Google</span>
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <br />
+
+    <!--
+Name: Sign In 5
+-->
+    <section class="ezy__signin5 py-14 md:py-24 bg-white dark:bg-[#0b1727] text-zinc-900 dark:text-white">
+      <div class="container px-4 mx-auto">
+        <div class="flex justify-center items-center h-full max-w-6xl mx-auto">
+          <div class="w-full bg-blue-100 bg-opacity-70 dark:bg-slate-800 shadow-xl p-6 md:p-12 xl:p-14 rounded-2xl">
+            <div class="flex flex-col md:flex-row items-center justify-between mb-6 md:mb-12">
+              <h2 class="text-indigo-900 dark:text-white text-3xl font-bold mb-4">Welcome to Easy Frontend!</h2>
+              <p class="mb-4 md:text-end">
+                <span class="opacity-50 mr-2">Don't have an account?</span>
+                <a href="#" class="btn btn-link p-0 text-dark text-decoration-none">Create Account</a>
+              </p>
+            </div>
+            <form>
+              <div class="grid grid-cols-12 gap-6">
+                <div class="col-span-12 md:col-span-6 lg:col-span-5">
+                  <div class="">
+                    <div class="mb-4">
+                      <label class="block mb-2 font-normal" for="email">Email Address</label>
+                      <input
+                        type="text"
+                        class="w-full bg-blue-50 dark:bg-slate-700 min-h-[48px] leading-10 px-4 p-2 rounded-lg outline-none border border-transparent focus:border-blue-600"
+                        id="email"
+                        placeholder="Enter Email Address"
+                      />
+                    </div>
+                    <div class="mb-4">
+                      <label class="block mb-2 font-normal" for="password">Password</label>
+                      <input
+                        type="password"
+                        class="w-full bg-blue-50 dark:bg-slate-700 min-h-[48px] leading-10 px-4 p-2 rounded-lg outline-none border border-transparent focus:border-blue-600"
+                        id="password"
+                        placeholder="Enter Password"
+                      />
+                    </div>
+                    <div class="mb-4">
+                      <input type="checkbox" class="mr-2" id="remember-me" checked />
+                      <label class="font-normal" for="remember-me">Remember me</label>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-span-12 md:col-span-6 lg:col-span-5 lg:col-start-8">
+                  <button type="submit" class="bg-indigo-800 text-white px-7 py-3 rounded w-full">
+                    Log In <i class="fas fa-arrow-right ml-2"></i>
+                  </button>
+                  <div class="mt-3 flex justify-center items-center">
+                    <a href="#" class="opacity-75">Forget Your Password?</a>
+                  </div>
+
+                  <div class="relative">
+                    <hr class="my-6 md:my-12 border-gray-400" />
+                    <span
+                      class="px-2 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-blue-100 dark:bg-slate-800"
+                      >Or</span
+                    >
+                  </div>
+
+                  <button class="w-full flex justify-center items-center bg-blue-600 rounded py-3 px-5 mb-3">
+                    <span class="fab fa-facebook text-white text-2xl"></span>
+                    <span class="w-full text-center text-white">Continue with Facebook</span>
+                  </button>
+                  <button class="w-full flex justify-center items-center bg-red-500 rounded py-3 px-5 mb-3">
+                    <span class="fab fa-google text-white text-2xl"></span>
+                    <span class="w-full text-center text-white">Continue with Google</span>
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <br />
+
+  </body>
+</html>

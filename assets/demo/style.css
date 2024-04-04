@@ -1,0 +1,116 @@
+body {
+  background: #fff3d8 !important;
+  padding-top: 62px;
+}
+.demo-top-navbar {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 6px 32px;
+  z-index: 1111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 27px rgba(0, 0, 0, 0.13);
+}
+
+.demo-top-navbar div {
+  display: flex;
+}
+
+.demo-top-navbar button,
+.demo-top-navbar a {
+  border: 1px solid #ccc;
+  padding: 0;
+  border-radius: 50px;
+  margin-right: 6px;
+
+  display: inline-flex;
+  text-decoration: none;
+  height: 30px;
+  width: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.demo-top-navbar .back-button {
+  background-color: #c7254e;
+  color: #fff;
+}
+
+body.ezy-checktypo,
+body.ezy-checktypo p {
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue,
+    Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji !important;
+}
+.ezy-checktypo h1,
+.ezy-checktypo h2,
+.ezy-checktypo h3,
+.ezy-checktypo h4,
+.ezy-checktypo h5,
+.ezy-checktypo h6 {
+  font-family: DM Serif Display, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji !important;
+}
+
+/* Option Card */
+.ezy-option-card {
+  background-color: rgb(78 54 245);
+  color: white;
+  margin: 10px;
+  padding: 10px 16px;
+  display: inline-flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 22px;
+}
+.ezy-option-card > span {
+  display: flex;
+  align-items: center;
+}
+.ezy-option-card > span > b {
+  border: 1px solid #998aff;
+  padding: 1px 10px;
+  border-radius: 22px;
+  margin-left: 5px;
+  font-weight: 600;
+}
+
+.ezy-color-scheme-group {
+  margin-bottom: 3px;
+}
+.ezy-color-scheme-group,
+.ezy-primary-color-scheme-group {
+  height: 30px;
+}
+
+.ezy-color-scheme-group,
+.ezy-primary-color-scheme-group {
+  border-right: 1px solid #ddd;
+  padding: 0 16px 0 0;
+  margin: 0 16px 0 0;
+}
+
+.ezy-orange * {
+  --ezy-theme-color: rgb(245, 158, 11);
+  --ezy-theme-color-rgb: 245, 158, 11;
+}
+.ezy-red * {
+  --ezy-theme-color: rgb(2178, 39, 39);
+  --ezy-theme-color-rgb: 2178, 39, 39;
+}
+
+/*//*/
+[class*="ezy__epqoverview"].modal,
+[class*="ezy__signin"].modal,
+[class*="ezy__signup"].modal,
+[class*="ezy__travel"].modal {
+  display: block;
+  position: relative;
+  opacity: 1;
+  padding: 30px 0;
+}
