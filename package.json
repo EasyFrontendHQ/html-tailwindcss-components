@@ -1,15 +1,15 @@
 {
-  "name": "tailwindcss",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "build": "tailwindcss -i ./assets/packages/tailwind/row-files/tailwind.css -o ./assets/packages/tailwind/tailwind.css -w"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "tailwindcss": "^3.2.4"
-  }
+    "name": "tailwindcss",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "tailwindcss -i ./assets/packages/tailwind/row-files/tailwind.css -o ./assets/packages/tailwind/tailwind.css -w"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "tailwindcss": "^3.2.4"
+    }
 }
