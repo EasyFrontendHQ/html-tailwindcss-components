@@ -5,6 +5,7 @@
 
 [![EasyFrontend Editor](https://assets.easyfrontend.com/tailwind/images/banner/easyfrontend_at2.png)](http://easyfrontend.com/)
 
+[![EasyFrontend Editor](https://assets.easyfrontend.com/tailwind/images/banner/easyfrontend_at3.png)](http://easyfrontend.com/)
 
 
 Enhance your app with [EasyFrontend](https://easyfrontend.com) pre-build [Bootstrap v5](https://easyfrontend.com/bootstrap), [Tailwind CSS](https://easyfrontend.com/tailwind), [React JS](https://easyfrontend.com/react-js)
