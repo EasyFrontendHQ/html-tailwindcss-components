@@ -1,6 +1,7 @@
-# Easy Frontend - Tailwind CSS Components
+# EasyFrontend - Tailwind CSS Components
 
-[![EasyFrontend Editor](https://assets.easyfrontend.com/tailwind/images/builder-details.png)](http://easyfrontend.com/builder)
+
+[![EasyFrontend Editor](https://assets.easyfrontend.com/tailwind/images/banner/easyfrontend_at5.png)](http://easyfrontend.com/builder)
 
 
 Enhance your app with [EasyFrontend](https://easyfrontend.com) pre-build [Bootstrap v5](https://easyfrontend.com/bootstrap), [Tailwind CSS](https://easyfrontend.com/tailwind), [React JS](https://easyfrontend.com/react-js)
