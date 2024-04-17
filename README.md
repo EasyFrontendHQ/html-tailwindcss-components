@@ -1,7 +1,7 @@
 # EasyFrontend - Tailwind CSS Components
 
 
-[![EasyFrontend Editor](https://assets.easyfrontend.com/tailwind/images/banner/easyfrontend_at5.png)](http://easyfrontend.com/builder)
+[![EasyFrontend Editor](https://assets.easyfrontend.com/tailwind/images/banner/easyfrontend_at5.png)](https://easyfrontend.com/components/ui)
 
 [![EasyFrontend Editor](https://assets.easyfrontend.com/tailwind/images/banner/easyfrontend_at2.png)](http://easyfrontend.com/tailwind)
 
