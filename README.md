@@ -1,4 +1,4 @@
-#EasyFrontend - Tailwind CSS Components
+# EasyFrontend - Tailwind CSS Components
 
 You can contribute to components. <br />
 Check the description below for the contribution process. 
